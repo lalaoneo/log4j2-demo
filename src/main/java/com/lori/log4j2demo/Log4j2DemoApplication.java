@@ -1,6 +1,5 @@
 package com.lori.log4j2demo;
 
-import com.lori.log4j2demo.utils.Log;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

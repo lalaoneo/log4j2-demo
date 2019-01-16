@@ -1,6 +1,5 @@
 package com.lori.log4j2demo.log;
 
-import com.lori.log4j2demo.utils.Log;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -12,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class Log4j2Test {
 
-    private static Logger logger = LoggerFactory.getLogger(Log.class);
+    private static Logger logger = LoggerFactory.getLogger(Log4j2Test.class);
 
     @Test
     public void testLog4j2(){
