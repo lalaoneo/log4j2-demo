@@ -3,7 +3,7 @@
 * 初始化默认名称的日志配置文件log4j2-spring.xml
 ## log4j2的性能高于logback
 * 其根本原因是在log4j2使用了LMAX disruptor框架
-* 具体介绍看[LMX Disruptor](E:\study-files\源码\muilti-thread\LMAX_Disruptor.md)
+* 具体介绍看[LMX Disruptor](/LMAX_Disruptor.md)
 ## bind()机制
 * StaticLoggerBinder.getSingleton()获取StaticLoggerBinder单例对象
 * StaticLoggerBinder实例化时会创建Log4jLoggerFactory对象,用于加载Logger对象
