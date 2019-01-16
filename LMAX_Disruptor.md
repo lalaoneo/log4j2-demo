@@ -1,5 +1,5 @@
 # Disruptor机制
-![avatar](\src\main\resources\images\1.png)
+![avatar](/src/main/resources/images/1.png)
 * 一个生产者消费者模型框架,用的不是队列而是用数组来缓存数据
 ## ringbuffer
 * 它是一个指定长度的数组,长度要求是2的幂次方,原因:计算数组下标时,与运算比取模运算更快
